@@ -108,3 +108,8 @@ header{
   font-variation-settings:
   'wght' 900,
 }
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
