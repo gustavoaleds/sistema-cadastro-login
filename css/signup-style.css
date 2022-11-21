@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 5vh;
+    height: calc(100vh - 5vh);
+    background-color: rgb(58, 56, 56);
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(245, 243, 243, 0.25));
+}
+
+.image img{
+    width: 150px;
+}
+
+.main-title h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+p{
+    opacity: 90%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+form label{
+    
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+    color: antiquewhite;
+
+
+}
+
+form{
+    margin-top: 60px;
+    position: relative;
+
+
+}
+
+form input{
+    width: 310px;
+    height: 35px;
+    border: 1.5px solid whitesmoke;
+    background-color: whitesmoke;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#email-camp{
+    margin-left: 37px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
