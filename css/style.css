@@ -5,8 +5,8 @@
     padding: 0;
 }
 body{
-    margin-top: 10vh;
-    height: 100vh;
+    padding-top: 15vh;
+    height: calc(100vh - 15vh);
     background-color: rgb(231, 225, 225);
 }
 
@@ -21,6 +21,8 @@ button{
     width: 200px;
     height: 40px;
     font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .image {
@@ -36,9 +38,10 @@ button{
     width: 180px;
 }
 
-.main-title h1{
+.main-title{
     font-size: 96px;
     text-align: center;
+    margin-top: 30px;
 
 }
 .main-title p{
@@ -46,11 +49,6 @@ button{
     font-size: 19px;
 }
 
-.main-title{
-    margin-top: 30px;
-    width: 100%;
-    text-align: center;
-}
 
 .buttons{
     margin-top: 100px;

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding-top: 10vh;
+    height: calc(100vh - 10vh);
+    background-color: rgb(231, 225, 225);
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.image img{
+    width: 150px;
+}
+
+.main-title h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2{
+    text-align: center;
+    margin-top:70px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+p{
+    opacity: 50%;
+    text-align: center;
+}
+
+form label{
+    
+    font-size: 19px;
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+form{
+    margin-top: 60px;
+    position: relative;
+
+}
+
+form input{
+    width: 250px;
+    height: 35px;
+    border: 1.5px solid;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#email-camp{
+    margin-left: 37px;
+}
+
+
+button:hover{
+    background-color: #252324;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+    border: .1rem black solid;
+    color: antiquewhite;
+    background-color: #373435;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.button-default{
+    margin-top: 35px;
+    text-align: center;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    padding: 10px;
+}
+
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'wght' 900,
+}
