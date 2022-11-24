@@ -9,6 +9,7 @@ body{
     padding-top: 5vh;
     height: calc(100vh - 5vh);
     background-color: rgb(58, 56, 56);
+    width: calc(100% - 2px);
 }
 
 .image {
@@ -114,4 +115,64 @@ label{
 a{
     text-decoration: none;
     color: antiquewhite;
+}
+
+/* AJUSTES DE RESPONSIVIDADE EM DISPOSITIVOS MÓVEIS */
+
+@media screen and (max-width: 480px) {
+
+    #first-name{
+        width: 187px;
+    }
+
+    #last-name{
+        width: 187px;
+    }
+
+    #check-term{
+        width: 15px;
+    }
+
+    form input{
+        width: 390px;
+        height: 35px;
+        border: 1.5px solid whitesmoke;
+        background-color: whitesmoke;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #check-term {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .finish{
+        border: .1rem rgb(58, 56, 56);
+        color: rgb(8, 8, 8);
+        background-color: #f5eff1;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        margin-left: 80px;
+    }
+    .image img{
+        width: 100px;
+    }
+
+    .main-title h1{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+        color: whitesmoke;
+    }
+
+    body{
+        padding-top: 5vh;
+        height: calc(100vh - 15vh);
+        background-color: rgb(58, 56, 56);
+        width: calc(100% - 4px);
+    }
 }

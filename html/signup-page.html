@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/signup-style.css" type="text/css">
-    <title>Sign Up - Nexus Society</title>
+    <title>Sign Up - NEXUS</title>
 </head>
 <body>
     <div class="image">
-        <img src="/img/SYMBOL_WHITE.png">    
+        <a href="/index.html"><img src="/img/SYMBOL_WHITE.png"></a>    
     </div>
 
     <div class="main-title">
-    <h1>Nexus Society</h1>
+    <h1>NEXUS</h1>
     </div>
     <h2>REGISTER</h2>
-    <p>Signup into Nexus Society, its quick and easy</p>
+    <p>Sign up into Nexus Society,<br>Its quick and easy</p>
 
     <div class="container">
     <form method="post">
-        <input id="first-name" type="text" placeholder="First Name"><input id="last-name" type="text" placeholder="Last name"><br>
-        <input id="email-camp" type="email" placeholder="Email"><br>
-        <input id="confirm-email" type="email" placeholder="Confirm email"><br>
-        <input id="password-camp" type="password" placeholder="Password"><br>
-        <input id="confirm-password" type="password" placeholder="Confirm password"><br>
-        <input id="check-term" type="checkbox"><label for="check-term">I accept the <a href="#">Terms of Use & Privacy Policy</a></label><br>
-        <input type=button class="finish" value="Register now">
+        <input id="first-name" type="text" placeholder="First Name" required><input id="last-name" type="text" placeholder="Last name" required><br>
+        <input id="email-camp" type="email" placeholder="Email" required><br>
+        <input id="confirm-email" type="email" placeholder="Confirm email" required><br>
+        <input id="password-camp" type="password" placeholder="Password" required><br>
+        <input id="confirm-password" type="password" placeholder="Confirm password" required><br>
+        <input id="check-term" type="checkbox"><label id="check-term" for="check-term" required>I accept the <a href="#">Terms of Use & Privacy Policy</a></label><br>
+        <input type=submit class="finish" value="Register now">
     </form>
 </div>
+<script src="/js/script.js"></script>
 </body>
 </html>

@@ -36,7 +36,6 @@ h2{
 }
 
 p{
-    opacity: 50%;
     text-align: center;
 }
 
@@ -51,23 +50,18 @@ form label{
 form{
     margin-top: 60px;
     position: relative;
+    text-align: center;
 
 }
 
 form input{
-    width: 250px;
+    width: 300px;
     height: 35px;
     border: 1.5px solid;
-    margin-right: 10px;
     margin-bottom: 20px;
     font-size: 16px;
     text-align: center;
 }
-
-#email-camp{
-    margin-left: 37px;
-}
-
 
 button:hover{
     background-color: #252324;
@@ -91,7 +85,6 @@ button{
     cursor: pointer;
 }
 
-
 .button-default{
     margin-top: 35px;
     text-align: center;
@@ -104,12 +97,45 @@ header{
 }
 
 
-.material-symbols-sharp {
-  font-variation-settings:
-  'wght' 900,
-}
-
 a{
     text-decoration: none;
     color: antiquewhite;
+}
+
+form input:hover{
+    transition: .2s;
+    color:antiquewhite;
+    font-weight: bold;
+    background-color:#373435;
+    
+}
+
+#check-term{
+    width: 25px;
+    padding-left: 5px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+label{
+    position: relative;
+    bottom: 8px;
+}
+
+.finish{
+    border: .1rem rgb(58, 56, 56);
+    color: rgb(8, 8, 8);
+    background-color: #f5eff1;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.finish:hover{
+    background-color:rgb(36, 34, 34) ;
+    color: antiquewhite;
+    border: solid .1rem whitesmoke;
+    transition: .2s;
 }
