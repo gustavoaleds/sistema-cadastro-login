@@ -4,7 +4,7 @@
 <p align="center"><img height='15' src='https://github.com/csmoore/country-flag-icons/blob/master/country-flags-4x3-png/br.png?raw=true'> <a href="#portuguese">Click here</a> for the portuguese version of this document.</P>
 
 ## Description
-<p>This project is a inicial project</p>
+<p>This project is about two forms, one for login and one for registration, built to have a modern, interactive and responsive appearance.</p>
 
 
 ## Technologies
