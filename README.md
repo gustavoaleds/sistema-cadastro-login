@@ -11,7 +11,7 @@
 
 To became the project possible, I use 3 differents technologies:
 
-***HTML, CSS and Javascript.***
+***HTML e CSS.***
 
 ## <p id="portuguese">Descrição do Projeto</p>
 <p>Este projeto trata-se de dois formulários, um de login e outro de cadastro, construídos para ter uma aparência moderna, interativa e responsiva.</p>
@@ -21,6 +21,6 @@ To became the project possible, I use 3 differents technologies:
 
 Para tornar o projeto possível utilizei 3 diferentes tecnologias:
 
-***HTML, CSS e Javascript.***
+***HTML e CSS.***
 
  
